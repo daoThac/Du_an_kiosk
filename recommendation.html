@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Triệu chứng đã chọn</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: #fff;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            max-width: 500px;
+            width: 90%;
+            animation: fadeIn 0.8s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            background: #f8f9fa;
+            margin: 10px 0;
+            padding: 12px 16px;
+            border-radius: 10px;
+            font-size: 16px;
+            color: #444;
+            display: flex;
+            align-items: center;
+            transition: 0.3s;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        li:hover {
+            transform: scale(1.03);
+            background: #e3f2fd;
+        }
+
+        li::before {
+            content: "✔";
+            margin-right: 10px;
+            color: #28a745;
+            font-weight: bold;
+        }
+
+        .back-btn {
+            display: block;
+            margin: 20px auto 0;
+            padding: 10px 20px;
+            background: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 15px;
+            transition: 0.3s;
+        }
+
+        .back-btn:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>🩺 Triệu chứng bạn đã chọn</h2>
+        <ul id="selected-list"></ul>
+        <button class="back-btn" onclick="window.location.href='symptoms.html'">← Quay lại</button>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const selectedSymptoms = JSON.parse(localStorage.getItem("selectedSymptoms")) || [];
+            const list = document.getElementById("selected-list");
+
+            if (selectedSymptoms.length === 0) {
+                list.innerHTML = "<li>Không có triệu chứng nào được chọn.</li>";
+            } else {
+                selectedSymptoms.forEach(symptom => {
+                    const li = document.createElement("li");
+                    li.textContent = symptom;
+                    list.appendChild(li);
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>

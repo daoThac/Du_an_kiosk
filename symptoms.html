@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chọn Triệu Chứng</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        .autocomplete-suggestions {
+            border: 1px solid #ccc;
+            max-height: 220px;
+            overflow-y: auto;
+            position: absolute;
+            background: #fff;
+            z-index: 10;
+            width: 100%;
+        }
+
+        .autocomplete-suggestion {
+            padding: 8px;
+            cursor: pointer;
+        }
+
+        .autocomplete-suggestion:hover {
+            background: #f0f0f0;
+        }
+
+        .selected-symptom {
+            display: inline-block;
+            margin: 5px;
+            padding: 5px 10px;
+            background: #d1ecf1;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body class="p-4">
+    <h2 class="mb-4 text-center">Chọn triệu chứng bạn đang gặp phải</h2>
+
+    <form id="symptom-form">
+        <div class="mb-3 position-relative">
+            <label class="form-label">Nhập triệu chứng:</label>
+            <input type="text" class="form-control" id="symptom-input" autocomplete="off"
+                placeholder="Ví dụ: Tôi cảm thấy sốt, Tôi bị ho khan...">
+            <div id="suggestions" class="autocomplete-suggestions"></div>
+        </div>
+
+        <div class="mb-3">
+            <label>Triệu chứng đã chọn:</label>
+            <div id="selected-symptoms"></div>
+        </div>
+
+        <button type="submit" class="btn btn-success">Tiếp tục</button>
+    </form>
+
+    <script>
+        const symptomInput = document.getElementById("symptom-input");
+        const suggestionsBox = document.getElementById("suggestions");
+        const selectedSymptomsBox = document.getElementById("selected-symptoms");
+
+        let allSymptoms = [];       // lưu danh sách triệu chứng
+        let selectedSymptoms = [];  // triệu chứng đã chọn
+
+        // ===== 1) Load JSON =====
+        async function loadData() {
+            try {
+                const res = await fetch("backend/data/benh_ly.json"); // dùng ./ cho chắc chắn
+                if (!res.ok) throw new Error("HTTP " + res.status);
+                const rawData = await res.json();
+                allSymptoms = rawData.map(item => item["triệu_chứng"]);
+                console.log("Triệu chứng load thành công:", allSymptoms);
+            } catch (err) {
+                console.error("Lỗi khi load JSON:", err);
+                alert("❌ Không tải được dữ liệu. Kiểm tra lại đường dẫn hoặc Live Server.");
+            }
+        }
+        loadData();
+
+        // ===== 2) Gợi ý autocomplete =====
+        symptomInput.addEventListener("input", () => {
+            const inputVal = symptomInput.value.toLowerCase().trim();
+            suggestionsBox.innerHTML = "";
+            if (!inputVal) return;
+
+            const filtered = allSymptoms.filter(s =>
+                s.toLowerCase().includes(inputVal) &&
+                !selectedSymptoms.includes(s)
+            );
+
+            filtered.forEach(symptom => {
+                const div = document.createElement("div");
+                div.className = "autocomplete-suggestion";
+                div.textContent = symptom;
+                div.addEventListener("click", () => {
+                    addSymptom(symptom);
+                    symptomInput.value = "";
+                    suggestionsBox.innerHTML = "";
+                });
+                suggestionsBox.appendChild(div);
+            });
+        });
+
+        // ===== 3) Thêm triệu chứng đã chọn =====
+        function addSymptom(symptomName) {
+            if (selectedSymptoms.includes(symptomName)) return;
+            selectedSymptoms.push(symptomName);
+
+            const span = document.createElement("span");
+            span.className = "selected-symptom";
+            span.textContent = symptomName;
+            selectedSymptomsBox.appendChild(span);
+        }
+
+        // ===== 4) Submit =====
+        document.getElementById("symptom-form").addEventListener("submit", (e) => {
+            e.preventDefault();
+            if (selectedSymptoms.length === 0) {
+                alert("Vui lòng chọn ít nhất 1 triệu chứng.");
+                return;
+            }
+            localStorage.setItem("selectedSymptoms", JSON.stringify(selectedSymptoms));
+            window.location.href = "recommendation.html";
+        });
+
+        // ===== 5) Ẩn gợi ý khi click ra ngoài =====
+        document.addEventListener("click", (e) => {
+            if (!e.target.closest(".position-relative")) {
+                suggestionsBox.innerHTML = "";
+            }
+        });
+    </script>
+
+</body>
+
+</html>
