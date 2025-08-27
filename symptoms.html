@@ -43,7 +43,7 @@
         <div class="mb-3 position-relative">
             <label class="form-label">Nhập triệu chứng:</label>
             <input type="text" class="form-control" id="symptom-input" autocomplete="off"
-                placeholder="Ví dụ: Tôi cảm thấy sốt, Tôi bị ho khan...">
+                placeholder="Ví dụ: sốt, ho khan...">
             <div id="suggestions" class="autocomplete-suggestions"></div>
         </div>
 
@@ -121,7 +121,7 @@
                 return;
             }
             localStorage.setItem("selectedSymptoms", JSON.stringify(selectedSymptoms));
-            window.location.href = "recommendation.html";
+            window.location.href = "test.html"; // Đổi từ "recommendation.html" sang "test.html"
         });
 
         // ===== 5) Ẩn gợi ý khi click ra ngoài =====

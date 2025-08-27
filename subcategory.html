@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kiosk Y tế - Chọn triệu chứng</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <style>
+    body { background: #f9fafb; font-family: 'Segoe UI', sans-serif; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+    .option {
+      border: 2px solid #e2e8f0; border-radius: 16px; padding: 20px;
+      background: #fff; text-align: center; cursor: pointer; transition: .2s;
+      user-select: none; min-height: 100px; display: flex; flex-direction: column; justify-content: center;
+    }
+    .option:hover { transform: translateY(-2px); box-shadow: 0 8px 18px rgba(0,0,0,.08); }
+    .option.selected { border-color: #0d6efd; background: #e7f1ff; }
+    .option input { display: none; }
+    .name { font-weight: 600; }
+    .footer-actions { position: sticky; bottom: 0; background: #f9fafb; padding-top: 16px; }
+  </style>
+</head>
+<body class="container py-5">
+
+  <h2 id="page-title" class="text-center mb-4">Chọn triệu chứng</h2>
+
+  <form id="disease-form">
+    <div id="disease-grid" class="grid mb-4"></div>
+
+    <!-- Ô khác -->
+    <div class="mb-4">
+      <label for="other-disease" class="form-label fw-semibold">Khác:</label>
+      <input type="text" id="other-disease" class="form-control" placeholder="Nhập triệu chứng khác...">
+    </div>
+
+    <div class="d-flex justify-content-center gap-3 footer-actions">
+      <a href="categories.html" class="btn btn-outline-secondary">Quay lại</a>
+      <button type="submit" class="btn btn-primary">Tiếp tục</button>
+    </div>
+  </form>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const field = urlParams.get("field");
+
+    const pageTitle = document.getElementById("page-title");
+    const diseaseGrid = document.getElementById("disease-grid");
+    const otherInput = document.getElementById("other-disease");
+
+    // Data mẫu
+    const diseaseData = {
+      "da-lieu": ["Mụn trứng cá", "Viêm da cơ địa", "Nấm da", "Zona thần kinh", "Ghẻ", "Phát ban dị ứng"],
+      "rang-mieng": ["Sâu răng", "Viêm lợi", "Hôi miệng", "Nhiệt miệng", "Chảy máu chân răng"],
+      "tim-mach": ["Tăng huyết áp", "Đau thắt ngực", "Nhồi máu cơ tim", "Rối loạn nhịp tim"],
+      "tieu-hoa": ["Đau dạ dày", "Trào ngược dạ dày", "Hội chứng ruột kích thích", "Viêm gan"],
+      "ho-hap": ["Ho có đờm", "Khó thở", "Viêm phế quản", "Hen suyễn", "Viêm phổi"],
+      "noi-tiet": ["Đái tháo đường", "Cường giáp", "Suy giáp", "Rối loạn nội tiết tố"],
+      "co-xuong-khop": ["Thoái hóa khớp", "Viêm khớp dạng thấp", "Gout", "Đau lưng mạn tính"],
+      "nhi": ["Sốt siêu vi", "Viêm amidan", "Sởi", "Thủy đậu", "Viêm phổi trẻ em"],
+      "phu-san": ["Ốm nghén", "Tiểu đường thai kỳ", "Tiền sản giật", "Viêm nhiễm phụ khoa"]
+    };
+
+    // Tiêu đề trang
+    pageTitle.textContent = "Chọn triệu chứng thuộc lĩnh vực: " + (localStorage.getItem("selectedCategory") || "");
+
+    // Render triệu chứng
+    if (field && diseaseData[field]) {
+      diseaseData[field].forEach(symptom => {
+        const label = document.createElement("label");
+        label.className = "option";
+        label.innerHTML = `
+          <input type="checkbox" name="disease" value="${symptom}">
+          <div class="name">${symptom}</div>
+        `;
+        diseaseGrid.appendChild(label);
+
+        const checkbox = label.querySelector("input");
+        checkbox.addEventListener("change", () => {
+          label.classList.toggle("selected", checkbox.checked);
+        });
+      });
+    }
+
+    // Submit
+    document.getElementById("disease-form").addEventListener("submit", function(e) {
+      e.preventDefault();
+
+      let selected = [];
+      document.querySelectorAll("#disease-grid input:checked").forEach(cb => selected.push(cb.value));
+
+      if (otherInput.value.trim() !== "") {
+        selected.push(otherInput.value.trim());
+      }
+
+      if (selected.length === 0) {
+        alert("Vui lòng chọn ít nhất 1 triệu chứng.");
+        return;
+      }
+
+      // Lưu vào localStorage (append, tránh trùng)
+      let existing = JSON.parse(localStorage.getItem("selectedSymptoms") || "[]");
+      existing = [...new Set([...existing, ...selected])];
+      localStorage.setItem("selectedSymptoms", JSON.stringify(existing));
+
+      // Chuyển trang
+      window.location.href = "recommendation.html";
+    });
+  </script>
+</body>
+</html>

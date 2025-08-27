@@ -116,6 +116,24 @@
                 });
             }
         });
+        const category = localStorage.getItem('selectedCategory');
+        const diseases = JSON.parse(localStorage.getItem('selectedDiseases') || '[]');
+        const symptoms = JSON.parse(localStorage.getItem('selectedSymptoms') || '[]');
+
+        // Ví dụ: render
+        const box = document.getElementById('rec-box'); // 1 div trong body để đổ nội dung
+        let html = '';
+        if (category) html += `<p><strong>Lĩnh vực:</strong> ${category}</p>`;
+        if (diseases.length) {
+            html += `<p><strong>Bệnh đã chọn:</strong></p><ul>` +
+                diseases.map(d => `<li>${d}</li>`).join('') + `</ul>`;
+        }
+        if (symptoms.length) {
+            html += `<p><strong>Triệu chứng đã chọn:</strong></p><ul>` +
+                symptoms.map(s => `<li>${s}</li>`).join('') + `</ul>`;
+        }
+        if (!html) html = `<p class="text-muted">Chưa có dữ liệu hiển thị.</p>`;
+        box.innerHTML = html;
     </script>
 </body>
 

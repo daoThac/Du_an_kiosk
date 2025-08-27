@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuẩn Đoán Bệnh</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+        }
+        .symptoms, .diagnosis {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Chuẩn Đoán Bệnh</h1>
+    <div class="symptoms">
+        <h2>Triệu Chứng Đã Chọn</h2>
+        <p id="selected-symptoms"></p>
+    </div>
+    <div class="diagnosis">
+        <h2>Kết Quả Kiến Nghị</h2>
+        <p id="diagnosis-result">Đang xử lý...</p>
+    </div>
+    <script>
+        // Hiển thị triệu chứng đã chọn từ localStorage
+        const selectedSymptoms = JSON.parse(localStorage.getItem("selectedSymptoms") || "[]");
+        document.getElementById("selected-symptoms").textContent = selectedSymptoms.join(", ");
+
+        // Gửi triệu chứng lên backend để lấy kết quả AI
+        async function fetchDiagnosis(symptoms) {
+            try {
+                const res = await fetch("http://127.0.0.1:5000/predict", { // Đúng địa chỉ Flask backend
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ symptoms: symptoms })
+                });
+                if (!res.ok) throw new Error("Lỗi server: " + res.status);
+                const data = await res.json();
+                document.getElementById("diagnosis-result").textContent = data.result || "Không có kết quả.";
+            } catch (err) {
+                document.getElementById("diagnosis-result").textContent = "Lỗi khi lấy kết quả từ AI!";
+            }
+        }
+
+        // Gọi hàm lấy kết quả khi trang load
+        if (selectedSymptoms.length > 0) {
+            fetchDiagnosis(selectedSymptoms);
+        } else {
+            document.getElementById("diagnosis-result").textContent = "Bạn chưa chọn triệu chứng.";
+        }
+    </script>
+</body>
+</html>
