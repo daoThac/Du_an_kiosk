@@ -1,0 +1,1052 @@
+[
+  {
+    "Nhóm hệ cơ quan": "Toàn thân / Chung",
+    "triệu_chứng": "Sốt",
+    "Từ đồng nghĩa / mô tả bổ sung": "Sốt nhẹ/vừa/cao, cảm giác nóng bừng"
+  },
+  {
+    "Nhóm hệ cơ quan": "Toàn thân / Chung",
+    "triệu_chứng": "Hạ thân nhiệt",
+    "Từ đồng nghĩa / mô tả bổ sung": "Cơ thể lạnh, rét run nhẹ"
+  },
+  {
+    "Nhóm hệ cơ quan": "Toàn thân / Chung",
+    "triệu_chứng": "Ớn lạnh",
+    "Từ đồng nghĩa / mô tả bổ sung": "Run bần bật"
+  },
+  {
+    "Nhóm hệ cơ quan": "Toàn thân / Chung",
+    "triệu_chứng": "Đổ mồ hôi",
+    "Từ đồng nghĩa / mô tả bổ sung": "Toát mồ hôi trộm, ra mồ hôi ban đêm"
+  },
+  {
+    "Nhóm hệ cơ quan": "Toàn thân / Chung",
+    "triệu_chứng": "Mệt mỏi",
+    "Từ đồng nghĩa / mô tả bổ sung": "Uể oải, kiệt sức"
+  },
+  {
+    "Nhóm hệ cơ quan": "Toàn thân / Chung",
+    "triệu_chứng": "Chóng mặt",
+    "Từ đồng nghĩa / mô tả bổ sung": "Hoa mắt, choáng váng"
+  },
+  {
+    "Nhóm hệ cơ quan": "Toàn thân / Chung",
+    "triệu_chứng": "Suy nhược",
+    "Từ đồng nghĩa / mô tả bổ sung": "Mất sức, không muốn vận động"
+  },
+  {
+    "Nhóm hệ cơ quan": "Toàn thân / Chung",
+    "triệu_chứng": "Phù toàn thân",
+    "Từ đồng nghĩa / mô tả bổ sung": "Sưng khắp cơ thể"
+  },
+  {
+    "Nhóm hệ cơ quan": "Toàn thân / Chung",
+    "triệu_chứng": "Sụt cân",
+    "Từ đồng nghĩa / mô tả bổ sung": "Giảm cân nhanh không rõ nguyên nhân"
+  },
+  {
+    "Nhóm hệ cơ quan": "Toàn thân / Chung",
+    "triệu_chứng": "Tăng cân",
+    "Từ đồng nghĩa / mô tả bổ sung": "Tăng cân bất thường"
+  },
+  {
+    "Nhóm hệ cơ quan": "Toàn thân / Chung",
+    "triệu_chứng": "Khát nhiều",
+    "Từ đồng nghĩa / mô tả bổ sung": "Uống nước liên tục"
+  },
+  {
+    "Nhóm hệ cơ quan": "Toàn thân / Chung",
+    "triệu_chứng": "Buồn ngủ",
+    "Từ đồng nghĩa / mô tả bổ sung": "Muốn nằm nghỉ, ngủ gật"
+  },
+  {
+    "Nhóm hệ cơ quan": "Toàn thân / Chung",
+    "triệu_chứng": "Mệt lả / kiệt sức",
+    "Từ đồng nghĩa / mô tả bổ sung": "Không còn sức lực"
+  },
+  {
+    "Nhóm hệ cơ quan": "Hô hấp",
+    "triệu_chứng": "Ho khan",
+    "Từ đồng nghĩa / mô tả bổ sung": "Ho không đờm"
+  },
+  {
+    "Nhóm hệ cơ quan": "Hô hấp",
+    "triệu_chứng": "Ho có đờm",
+    "Từ đồng nghĩa / mô tả bổ sung": "Ho có đàm, ho có chất nhầy"
+  },
+  {
+    "Nhóm hệ cơ quan": "Hô hấp",
+    "triệu_chứng": "Ho ra máu",
+    "Từ đồng nghĩa / mô tả bổ sung": "Khạc đờm lẫn máu"
+  },
+  {
+    "Nhóm hệ cơ quan": "Hô hấp",
+    "triệu_chứng": "Khó thở",
+    "Từ đồng nghĩa / mô tả bổ sung": "Hụt hơi, thở gấp"
+  },
+  {
+    "Nhóm hệ cơ quan": "Hô hấp",
+    "triệu_chứng": "Thở khò khè",
+    "Từ đồng nghĩa / mô tả bổ sung": "Thở rít, thở có tiếng rít"
+  },
+  {
+    "Nhóm hệ cơ quan": "Hô hấp",
+    "triệu_chứng": "Cảm giác nghẹn ở cổ họng",
+    "Từ đồng nghĩa / mô tả bổ sung": "Vướng ở họng"
+  },
+  {
+    "Nhóm hệ cơ quan": "Hô hấp",
+    "triệu_chứng": "Đau tức ngực khi ho",
+    "Từ đồng nghĩa / mô tả bổ sung": "Đau nhói, thắt ngực"
+  },
+  {
+    "Nhóm hệ cơ quan": "Hô hấp",
+    "triệu_chứng": "Khó thở khi nằm",
+    "Từ đồng nghĩa / mô tả bổ sung": "Phải kê gối mới dễ thở"
+  },
+  {
+    "Nhóm hệ cơ quan": "Hô hấp",
+    "triệu_chứng": "Thở nhanh",
+    "Từ đồng nghĩa / mô tả bổ sung": "Tăng tần số thở"
+  },
+  {
+    "Nhóm hệ cơ quan": "Hô hấp",
+    "triệu_chứng": "Thở bằng miệng",
+    "Từ đồng nghĩa / mô tả bổ sung": "Không thở được bằng mũi"
+  },
+  {
+    "Nhóm hệ cơ quan": "Hô hấp",
+    "triệu_chứng": "Cơn co thắt đường thở",
+    "Từ đồng nghĩa / mô tả bổ sung": "Hen suyễn, cảm giác bóp nghẹt"
+  },
+  {
+    "Nhóm hệ cơ quan": "Hô hấp",
+    "triệu_chứng": "Ngáy",
+    "Từ đồng nghĩa / mô tả bổ sung": "Tiếng rít khi ngủ"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tiêu hóa",
+    "triệu_chứng": "Đau bụng",
+    "Từ đồng nghĩa / mô tả bổ sung": "Đau vùng bụng, đau quặn"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tiêu hóa",
+    "triệu_chứng": "Đau bụng trên",
+    "Từ đồng nghĩa / mô tả bổ sung": "Đau thượng vị, đau trên rốn"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tiêu hóa",
+    "triệu_chứng": "Đau bụng dưới",
+    "Từ đồng nghĩa / mô tả bổ sung": "Đau hạ vị, đau vùng chậu"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tiêu hóa",
+    "triệu_chứng": "Buồn nôn",
+    "Từ đồng nghĩa / mô tả bổ sung": "Nôn nao"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tiêu hóa",
+    "triệu_chứng": "Nôn",
+    "Từ đồng nghĩa / mô tả bổ sung": "Ói"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tiêu hóa",
+    "triệu_chứng": "Ợ hơi",
+    "Từ đồng nghĩa / mô tả bổ sung": "Ợ lên"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tiêu hóa",
+    "triệu_chứng": "Ợ chua / ợ nóng",
+    "Từ đồng nghĩa / mô tả bổ sung": "Trào ngược"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tiêu hóa",
+    "triệu_chứng": "Đầy hơi",
+    "Từ đồng nghĩa / mô tả bổ sung": "Chướng bụng, bụng căng"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tiêu hóa",
+    "triệu_chứng": "Táo bón",
+    "Từ đồng nghĩa / mô tả bổ sung": "Đi ngoài khó"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tiêu hóa",
+    "triệu_chứng": "Tiêu chảy",
+    "Từ đồng nghĩa / mô tả bổ sung": "Đi ngoài lỏng"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tiêu hóa",
+    "triệu_chứng": "Đi ngoài ra máu",
+    "Từ đồng nghĩa / mô tả bổ sung": "Phân có máu"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tiêu hóa",
+    "triệu_chứng": "Phân đen",
+    "Từ đồng nghĩa / mô tả bổ sung": "Phân màu hắc ín"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tiêu hóa",
+    "triệu_chứng": "Khô miệng",
+    "Từ đồng nghĩa / mô tả bổ sung": "Miệng đắng, liên tục khát"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tiêu hóa",
+    "triệu_chứng": "Hơi thở hôi",
+    "Từ đồng nghĩa / mô tả bổ sung": "Hơi thở có mùi khó chịu"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tiêu hóa",
+    "triệu_chứng": "Viêm dạ dày-tá tràng",
+    "Từ đồng nghĩa / mô tả bổ sung": "Đau rát thượng vị khi đói"
+  },
+  {
+    "Nhóm hệ cơ quan": "Thần kinh",
+    "triệu_chứng": "Đau đầu",
+    "Từ đồng nghĩa / mô tả bổ sung": "Nhức đầu, căng đầu"
+  },
+  {
+    "Nhóm hệ cơ quan": "Thần kinh",
+    "triệu_chứng": "Đau nửa đầu",
+    "Từ đồng nghĩa / mô tả bổ sung": "Đau nửa sọ, migraine"
+  },
+  {
+    "Nhóm hệ cơ quan": "Thần kinh",
+    "triệu_chứng": "Chóng mặt",
+    "Từ đồng nghĩa / mô tả bổ sung": "Hoa mắt, lảo đảo"
+  },
+  {
+    "Nhóm hệ cơ quan": "Thần kinh",
+    "triệu_chứng": "Chóng mặt tư thế",
+    "Từ đồng nghĩa / mô tả bổ sung": "Choáng váng khi đổi tư thế"
+  },
+  {
+    "Nhóm hệ cơ quan": "Thần kinh",
+    "triệu_chứng": "Mất thăng bằng",
+    "Từ đồng nghĩa / mô tả bổ sung": "Đi không vững, dễ ngã"
+  },
+  {
+    "Nhóm hệ cơ quan": "Thần kinh",
+    "triệu_chứng": "Ngất xỉu",
+    "Từ đồng nghĩa / mô tả bổ sung": "Mất ý thức tạm thời"
+  },
+  {
+    "Nhóm hệ cơ quan": "Thần kinh",
+    "triệu_chứng": "Tê bì",
+    "Từ đồng nghĩa / mô tả bổ sung": "Tê tay/chân, kiến bò"
+  },
+  {
+    "Nhóm hệ cơ quan": "Thần kinh",
+    "triệu_chứng": "Co giật",
+    "Từ đồng nghĩa / mô tả bổ sung": "Giật cơ"
+  },
+  {
+    "Nhóm hệ cơ quan": "Thần kinh",
+    "triệu_chứng": "Chuột rút",
+    "Từ đồng nghĩa / mô tả bổ sung": "Co cơ đột ngột, đau nhói"
+  },
+  {
+    "Nhóm hệ cơ quan": "Thần kinh",
+    "triệu_chứng": "Run tay/chân",
+    "Từ đồng nghĩa / mô tả bổ sung": "Run không kiểm soát"
+  },
+  {
+    "Nhóm hệ cơ quan": "Thần kinh",
+    "triệu_chứng": "Mất cảm giác",
+    "Từ đồng nghĩa / mô tả bổ sung": "Giảm cảm giác, liệt nhẹ"
+  },
+  {
+    "Nhóm hệ cơ quan": "Thần kinh",
+    "triệu_chứng": "Mất trí nhớ",
+    "Từ đồng nghĩa / mô tả bổ sung": "Quên, lú lẫn"
+  },
+  {
+    "Nhóm hệ cơ quan": "Thần kinh",
+    "triệu_chứng": "Nói khó",
+    "Từ đồng nghĩa / mô tả bổ sung": "Khó phát âm, vấp váp"
+  },
+  {
+    "Nhóm hệ cơ quan": "Thần kinh",
+    "triệu_chứng": "Liệt nửa mặt",
+    "Từ đồng nghĩa / mô tả bổ sung": "Xệ mặt một bên, méo miệng"
+  },
+  {
+    "Nhóm hệ cơ quan": "Thần kinh",
+    "triệu_chứng": "Thị lực giảm nhanh",
+    "Từ đồng nghĩa / mô tả bổ sung": "Nhìn mờ đột ngột"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tim mạch",
+    "triệu_chứng": "Đau ngực",
+    "Từ đồng nghĩa / mô tả bổ sung": "Tức ngực, bóp nghẹn"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tim mạch",
+    "triệu_chứng": "Đau lan lên hàm, vai trái",
+    "Từ đồng nghĩa / mô tả bổ sung": "Đau lan cổ, vai, cánh tay trái"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tim mạch",
+    "triệu_chứng": "Hồi hộp",
+    "Từ đồng nghĩa / mô tả bổ sung": "Tim đập nhanh, đánh trống ngực"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tim mạch",
+    "triệu_chứng": "Tim đập chậm",
+    "Từ đồng nghĩa / mô tả bổ sung": "Nhịp tim thưa"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tim mạch",
+    "triệu_chứng": "Tụt huyết áp tư thế",
+    "Từ đồng nghĩa / mô tả bổ sung": "Hoa mắt khi đứng lên"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tim mạch",
+    "triệu_chứng": "Phù chân / mắt cá chân",
+    "Từ đồng nghĩa / mô tả bổ sung": "Sưng mềm, ấn lõm"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tim mạch",
+    "triệu_chứng": "Tím tái đầu chi",
+    "Từ đồng nghĩa / mô tả bổ sung": "Da xanh, môi tím"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tim mạch",
+    "triệu_chứng": "Đau bắp chân khi đi bộ (đau cách hồi)",
+    "Từ đồng nghĩa / mô tả bổ sung": "Đau mỏi bắp chân"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tim mạch",
+    "triệu_chứng": "Ngất khi gắng sức",
+    "Từ đồng nghĩa / mô tả bổ sung": "Mất ý thức khi vận động"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tim mạch",
+    "triệu_chứng": "Cảm giác đập mạnh ở cổ",
+    "Từ đồng nghĩa / mô tả bổ sung": "Gõ mạch cảnh"
+  },
+  {
+    "Nhóm hệ cơ quan": "Da liễu",
+    "triệu_chứng": "Phát ban",
+    "Từ đồng nghĩa / mô tả bổ sung": "Nổi mẩn đỏ, mề đay"
+  },
+  {
+    "Nhóm hệ cơ quan": "Da liễu",
+    "triệu_chứng": "Mẩn ngứa",
+    "Từ đồng nghĩa / mô tả bổ sung": "Ngứa da"
+  },
+  {
+    "Nhóm hệ cơ quan": "Da liễu",
+    "triệu_chứng": "Chàm",
+    "Từ đồng nghĩa / mô tả bổ sung": "Da đỏ, tróc vảy, ngứa"
+  },
+  {
+    "Nhóm hệ cơ quan": "Da liễu",
+    "triệu_chứng": "Phồng rộp",
+    "Từ đồng nghĩa / mô tả bổ sung": "Bóng nước"
+  },
+  {
+    "Nhóm hệ cơ quan": "Da liễu",
+    "triệu_chứng": "Loét da",
+    "Từ đồng nghĩa / mô tả bổ sung": "Vết loét hở"
+  },
+  {
+    "Nhóm hệ cơ quan": "Da liễu",
+    "triệu_chứng": "Bong tróc da",
+    "Từ đồng nghĩa / mô tả bổ sung": "Da khô, nứt nẻ"
+  },
+  {
+    "Nhóm hệ cơ quan": "Da liễu",
+    "triệu_chứng": "Mụn",
+    "Từ đồng nghĩa / mô tả bổ sung": "Mụn viêm, mụn mủ"
+  },
+  {
+    "Nhóm hệ cơ quan": "Da liễu",
+    "triệu_chứng": "Tăng sắc tố",
+    "Từ đồng nghĩa / mô tả bổ sung": "Nám, tàn nhang"
+  },
+  {
+    "Nhóm hệ cơ quan": "Da liễu",
+    "triệu_chứng": "Sạm da",
+    "Từ đồng nghĩa / mô tả bổ sung": "Da sẫm, đồi mồi"
+  },
+  {
+    "Nhóm hệ cơ quan": "Da liễu",
+    "triệu_chứng": "Hăm tã",
+    "Từ đồng nghĩa / mô tả bổ sung": "Vùng tã ẩm ướt, rát da"
+  },
+  {
+    "Nhóm hệ cơ quan": "Da liễu",
+    "triệu_chứng": "Nhiễm nấm da",
+    "Từ đồng nghĩa / mô tả bổ sung": "Đỏ da, vảy mốc, ngứa"
+  },
+  {
+    "Nhóm hệ cơ quan": "Da liễu",
+    "triệu_chứng": "Tổn thương sắc tố",
+    "Từ đồng nghĩa / mô tả bổ sung": "Nám, tàn nhang"
+  },
+  {
+    "Nhóm hệ cơ quan": "Niệu – Tiết niệu",
+    "triệu_chứng": "Tiểu buốt",
+    "Từ đồng nghĩa / mô tả bổ sung": "Đau rát khi tiểu"
+  },
+  {
+    "Nhóm hệ cơ quan": "Niệu – Tiết niệu",
+    "triệu_chứng": "Tiểu rắt",
+    "Từ đồng nghĩa / mô tả bổ sung": "Đi tiểu nhiều lần"
+  },
+  {
+    "Nhóm hệ cơ quan": "Niệu – Tiết niệu",
+    "triệu_chứng": "Tiểu gấp",
+    "Từ đồng nghĩa / mô tả bổ sung": "Mót tiểu đột ngột"
+  },
+  {
+    "Nhóm hệ cơ quan": "Niệu – Tiết niệu",
+    "triệu_chứng": "Tiểu đêm",
+    "Từ đồng nghĩa / mô tả bổ sung": "Thức dậy nhiều lần để tiểu"
+  },
+  {
+    "Nhóm hệ cơ quan": "Niệu – Tiết niệu",
+    "triệu_chứng": "Tiểu không kiểm soát",
+    "Từ đồng nghĩa / mô tả bổ sung": "Tiểu són, tiểu vãi"
+  },
+  {
+    "Nhóm hệ cơ quan": "Niệu – Tiết niệu",
+    "triệu_chứng": "Bí tiểu",
+    "Từ đồng nghĩa / mô tả bổ sung": "Tiểu ít, tiểu dắt"
+  },
+  {
+    "Nhóm hệ cơ quan": "Niệu – Tiết niệu",
+    "triệu_chứng": "Tiểu ra máu",
+    "Từ đồng nghĩa / mô tả bổ sung": "Đái ra máu"
+  },
+  {
+    "Nhóm hệ cơ quan": "Niệu – Tiết niệu",
+    "triệu_chứng": "Tiểu ra mủ",
+    "Từ đồng nghĩa / mô tả bổ sung": "Nước tiểu đục, có mủ"
+  },
+  {
+    "Nhóm hệ cơ quan": "Niệu – Tiết niệu",
+    "triệu_chứng": "Tiểu nhiều",
+    "Từ đồng nghĩa / mô tả bổ sung": "Đi tiểu liên tục"
+  },
+  {
+    "Nhóm hệ cơ quan": "Niệu – Tiết niệu",
+    "triệu_chứng": "Tiểu ít",
+    "Từ đồng nghĩa / mô tả bổ sung": "Đi tiểu thưa thớt"
+  },
+  {
+    "Nhóm hệ cơ quan": "Niệu – Tiết niệu",
+    "triệu_chứng": "Đái dầm",
+    "Từ đồng nghĩa / mô tả bổ sung": "Tiểu không kiểm soát khi ngủ"
+  },
+  {
+    "Nhóm hệ cơ quan": "Niệu – Tiết niệu",
+    "triệu_chứng": "Són tiểu khi ho/cười",
+    "Từ đồng nghĩa / mô tả bổ sung": "Tiểu không chủ ý"
+  },
+  {
+    "Nhóm hệ cơ quan": "Cơ xương khớp",
+    "triệu_chứng": "Đau khớp gối",
+    "Từ đồng nghĩa / mô tả bổ sung": "Nhức gối khi co duỗi"
+  },
+  {
+    "Nhóm hệ cơ quan": "Cơ xương khớp",
+    "triệu_chứng": "Đau khớp vai",
+    "Từ đồng nghĩa / mô tả bổ sung": "Nhức vai, hạn chế cử động"
+  },
+  {
+    "Nhóm hệ cơ quan": "Cơ xương khớp",
+    "triệu_chứng": "Đau khớp háng",
+    "Từ đồng nghĩa / mô tả bổ sung": "Nhức khớp háng"
+  },
+  {
+    "Nhóm hệ cơ quan": "Cơ xương khớp",
+    "triệu_chứng": "Đau thắt lưng",
+    "Từ đồng nghĩa / mô tả bổ sung": "Nhức lưng, co cứng lưng buổi sáng"
+  },
+  {
+    "Nhóm hệ cơ quan": "Cơ xương khớp",
+    "triệu_chứng": "Đau cổ",
+    "Từ đồng nghĩa / mô tả bổ sung": "Nhức cổ, khó quay"
+  },
+  {
+    "Nhóm hệ cơ quan": "Cơ xương khớp",
+    "triệu_chứng": "Viêm khớp",
+    "Từ đồng nghĩa / mô tả bổ sung": "Sưng, nóng đỏ khớp"
+  },
+  {
+    "Nhóm hệ cơ quan": "Cơ xương khớp",
+    "triệu_chứng": "Cứng khớp",
+    "Từ đồng nghĩa / mô tả bổ sung": "Khó cử động sau ngủ"
+  },
+  {
+    "Nhóm hệ cơ quan": "Cơ xương khớp",
+    "triệu_chứng": "Yếu cơ",
+    "Từ đồng nghĩa / mô tả bổ sung": "Giảm sức, không nhấc được vật nặng"
+  },
+  {
+    "Nhóm hệ cơ quan": "Cơ xương khớp",
+    "triệu_chứng": "Nóng đỏ khớp",
+    "Từ đồng nghĩa / mô tả bổ sung": "Khớp sưng, ấm đỏ"
+  },
+  {
+    "Nhóm hệ cơ quan": "Cơ xương khớp",
+    "triệu_chứng": "Cảm giác lạo xạo trong khớp",
+    "Từ đồng nghĩa / mô tả bổ sung": "Nghe tiếng lạo xạo khi cử động"
+  },
+  {
+    "Nhóm hệ cơ quan": "Cơ xương khớp",
+    "triệu_chứng": "Chuột rút",
+    "Từ đồng nghĩa / mô tả bổ sung": "Co cơ đột ngột, đau nhói"
+  },
+  {
+    "Nhóm hệ cơ quan": "Cơ xương khớp",
+    "triệu_chứng": "Teo cơ",
+    "Từ đồng nghĩa / mô tả bổ sung": "Cơ nhỏ đi, kém săn chắc"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tai – Mũi – Họng",
+    "triệu_chứng": "Đau tai",
+    "Từ đồng nghĩa / mô tả bổ sung": "Nhói tai"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tai – Mũi – Họng",
+    "triệu_chứng": "Chảy dịch tai",
+    "Từ đồng nghĩa / mô tả bổ sung": "Dịch nhầy đục, mùi lạ"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tai – Mũi – Họng",
+    "triệu_chứng": "Viêm tai giữa",
+    "Từ đồng nghĩa / mô tả bổ sung": "Đau tai, sốt, vặn mình"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tai – Mũi – Họng",
+    "triệu_chứng": "Chảy máu mũi",
+    "Từ đồng nghĩa / mô tả bổ sung": "Xuất huyết mũi"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tai – Mũi – Họng",
+    "triệu_chứng": "Ngứa tai",
+    "Từ đồng nghĩa / mô tả bổ sung": "Cảm giác ngứa bên trong tai"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tai – Mũi – Họng",
+    "triệu_chứng": "Mất khứu giác",
+    "Từ đồng nghĩa / mô tả bổ sung": "Không ngửi được mùi"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tai – Mũi – Họng",
+    "triệu_chứng": "Mất vị giác",
+    "Từ đồng nghĩa / mô tả bổ sung": "Ăn nhạt, không cảm nhận vị thức ăn"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tai – Mũi – Họng",
+    "triệu_chứng": "Viêm amidan",
+    "Từ đồng nghĩa / mô tả bổ sung": "Amidan sưng, đau khi nuốt"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tai – Mũi – Họng",
+    "triệu_chứng": "Ngạt mũi",
+    "Từ đồng nghĩa / mô tả bổ sung": "Nghẹt mũi, khó thở bằng mũi"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tai – Mũi – Họng",
+    "triệu_chứng": "Chảy nước mũi",
+    "Từ đồng nghĩa / mô tả bổ sung": "Sổ mũi"
+  },
+  {
+    "Nhóm hệ cơ quan": "Mắt / Nhãn khoa",
+    "triệu_chứng": "Mờ mắt",
+    "Từ đồng nghĩa / mô tả bổ sung": "Nhìn không rõ, hình ảnh nhòe"
+  },
+  {
+    "Nhóm hệ cơ quan": "Mắt / Nhãn khoa",
+    "triệu_chứng": "Nhìn đôi",
+    "Từ đồng nghĩa / mô tả bổ sung": "Song thị"
+  },
+  {
+    "Nhóm hệ cơ quan": "Mắt / Nhãn khoa",
+    "triệu_chứng": "Sợ ánh sáng",
+    "Từ đồng nghĩa / mô tả bổ sung": "Chói mắt"
+  },
+  {
+    "Nhóm hệ cơ quan": "Mắt / Nhãn khoa",
+    "triệu_chứng": "Khô mắt",
+    "Từ đồng nghĩa / mô tả bổ sung": "Mỏi mắt, cộm"
+  },
+  {
+    "Nhóm hệ cơ quan": "Mắt / Nhãn khoa",
+    "triệu_chứng": "Chảy nước mắt",
+    "Từ đồng nghĩa / mô tả bổ sung": "Nước mắt rỉ rả"
+  },
+  {
+    "Nhóm hệ cơ quan": "Mắt / Nhãn khoa",
+    "triệu_chứng": "Mắt đỏ",
+    "Từ đồng nghĩa / mô tả bổ sung": "Viêm kết mạc, đỏ lòng trắng mắt"
+  },
+  {
+    "Nhóm hệ cơ quan": "Mắt / Nhãn khoa",
+    "triệu_chứng": "Phù mi mắt",
+    "Từ đồng nghĩa / mô tả bổ sung": "Mắt sưng, mi mắt nặng"
+  },
+  {
+    "Nhóm hệ cơ quan": "Mắt / Nhãn khoa",
+    "triệu_chứng": "Chảy mủ mắt",
+    "Từ đồng nghĩa / mô tả bổ sung": "Dịch nhầy đục, dính mi"
+  },
+  {
+    "Nhóm hệ cơ quan": "Mắt / Nhãn khoa",
+    "triệu_chứng": "Nhạy cảm ánh sáng",
+    "Từ đồng nghĩa / mô tả bổ sung": "Đau rát khi gặp ánh sáng mạnh"
+  },
+  {
+    "Nhóm hệ cơ quan": "Mắt / Nhãn khoa",
+    "triệu_chứng": "Cộm giác mạc",
+    "Từ đồng nghĩa / mô tả bổ sung": "Cảm giác dị vật, chói mắt"
+  },
+  {
+    "Nhóm hệ cơ quan": "Dị ứng / Miễn dịch",
+    "triệu_chứng": "Viêm mũi dị ứng",
+    "Từ đồng nghĩa / mô tả bổ sung": "Ngứa mũi, hắt hơi"
+  },
+  {
+    "Nhóm hệ cơ quan": "Dị ứng / Miễn dịch",
+    "triệu_chứng": "Viêm kết mạc dị ứng",
+    "Từ đồng nghĩa / mô tả bổ sung": "Ngứa mắt, đỏ mắt"
+  },
+  {
+    "Nhóm hệ cơ quan": "Dị ứng / Miễn dịch",
+    "triệu_chứng": "Nổi mề đay",
+    "Từ đồng nghĩa / mô tả bổ sung": "Mẩn đỏ, sưng, ngứa"
+  },
+  {
+    "Nhóm hệ cơ quan": "Dị ứng / Miễn dịch",
+    "triệu_chứng": "Phù mạch sâu",
+    "Từ đồng nghĩa / mô tả bổ sung": "Sưng môi, mí mắt, khít họng"
+  },
+  {
+    "Nhóm hệ cơ quan": "Dị ứng / Miễn dịch",
+    "triệu_chứng": "Hen suyễn cơn",
+    "Từ đồng nghĩa / mô tả bổ sung": "Khó thở dữ dội, thở khò khè"
+  },
+  {
+    "Nhóm hệ cơ quan": "Dị ứng / Miễn dịch",
+    "triệu_chứng": "Sốc phản vệ",
+    "Từ đồng nghĩa / mô tả bổ sung": "Khó thở, tụt huyết áp, sưng mặt"
+  },
+  {
+    "Nhóm hệ cơ quan": "Dị ứng / Miễn dịch",
+    "triệu_chứng": "Viêm da tiếp xúc",
+    "Từ đồng nghĩa / mô tả bổ sung": "Phát ban, mụn nước, ngứa"
+  },
+  {
+    "Nhóm hệ cơ quan": "Dị ứng / Miễn dịch",
+    "triệu_chứng": "Dị ứng thuốc",
+    "Từ đồng nghĩa / mô tả bổ sung": "Phát ban, phù, ngứa"
+  },
+  {
+    "Nhóm hệ cơ quan": "Nhiễm khuẩn",
+    "triệu_chứng": "Sốt cao (> 38 °C)",
+    "Từ đồng nghĩa / mô tả bổ sung": "Sốt liên tục"
+  },
+  {
+    "Nhóm hệ cơ quan": "Nhiễm khuẩn",
+    "triệu_chứng": "Sốt kéo dài (> 7 ngày)",
+    "Từ đồng nghĩa / mô tả bổ sung": "Sốt lâu ngày"
+  },
+  {
+    "Nhóm hệ cơ quan": "Nhiễm khuẩn",
+    "triệu_chứng": "Ớn lạnh, rét run",
+    "Từ đồng nghĩa / mô tả bổ sung": "Run bần bật"
+  },
+  {
+    "Nhóm hệ cơ quan": "Nhiễm khuẩn",
+    "triệu_chứng": "Đổ mồ hôi trộm",
+    "Từ đồng nghĩa / mô tả bổ sung": "Toát mồ hôi ban đêm"
+  },
+  {
+    "Nhóm hệ cơ quan": "Nhiễm khuẩn",
+    "triệu_chứng": "Sưng hạch bạch huyết",
+    "Từ đồng nghĩa / mô tả bổ sung": "Hạch to, nổi hạch"
+  },
+  {
+    "Nhóm hệ cơ quan": "Nhiễm khuẩn",
+    "triệu_chứng": "Viêm họng",
+    "Từ đồng nghĩa / mô tả bổ sung": "Đau họng khi nuốt"
+  },
+  {
+    "Nhóm hệ cơ quan": "Nhiễm khuẩn",
+    "triệu_chứng": "Ho khan",
+    "Từ đồng nghĩa / mô tả bổ sung": "Ho không đờm"
+  },
+  {
+    "Nhóm hệ cơ quan": "Nhiễm khuẩn",
+    "triệu_chứng": "Ho có đờm",
+    "Từ đồng nghĩa / mô tả bổ sung": "Ho có chất nhầy"
+  },
+  {
+    "Nhóm hệ cơ quan": "Nhiễm khuẩn",
+    "triệu_chứng": "Ho kéo dài (> 2 tuần)",
+    "Từ đồng nghĩa / mô tả bổ sung": "Ho dai dẳng"
+  },
+  {
+    "Nhóm hệ cơ quan": "Nhiễm khuẩn",
+    "triệu_chứng": "Buồn nôn",
+    "Từ đồng nghĩa / mô tả bổ sung": "Muốn nôn"
+  },
+  {
+    "Nhóm hệ cơ quan": "Nhiễm khuẩn",
+    "triệu_chứng": "Nôn",
+    "Từ đồng nghĩa / mô tả bổ sung": "Ói"
+  },
+  {
+    "Nhóm hệ cơ quan": "Nhiễm khuẩn",
+    "triệu_chứng": "Tiêu chảy cấp",
+    "Từ đồng nghĩa / mô tả bổ sung": "Đi ngoài lỏng, mót rặn"
+  },
+  {
+    "Nhóm hệ cơ quan": "Nhiễm khuẩn",
+    "triệu_chứng": "Tiêu chảy kéo dài",
+    "Từ đồng nghĩa / mô tả bổ sung": "Phân lỏng kéo dài"
+  },
+  {
+    "Nhóm hệ cơ quan": "Nhiễm khuẩn",
+    "triệu_chứng": "Đau cơ toàn thân",
+    "Từ đồng nghĩa / mô tả bổ sung": "Nhức mỏi khắp người"
+  },
+  {
+    "Nhóm hệ cơ quan": "Răng – miệng",
+    "triệu_chứng": "Loét miệng",
+    "Từ đồng nghĩa / mô tả bổ sung": "Viêm loét niêm mạc, vết trợt"
+  },
+  {
+    "Nhóm hệ cơ quan": "Răng – miệng",
+    "triệu_chứng": "Nóng rát miệng",
+    "Từ đồng nghĩa / mô tả bổ sung": "Cảm giác bỏng rát"
+  },
+  {
+    "Nhóm hệ cơ quan": "Răng – miệng",
+    "triệu_chứng": "Hôi miệng",
+    "Từ đồng nghĩa / mô tả bổ sung": "Khí thở khó chịu"
+  },
+  {
+    "Nhóm hệ cơ quan": "Răng – miệng",
+    "triệu_chứng": "Khô miệng",
+    "Từ đồng nghĩa / mô tả bổ sung": "Miệng đắng, liên tục khát"
+  },
+  {
+    "Nhóm hệ cơ quan": "Răng – miệng",
+    "triệu_chứng": "Viêm lợi",
+    "Từ đồng nghĩa / mô tả bổ sung": "Lợi sưng, chảy máu khi đánh răng"
+  },
+  {
+    "Nhóm hệ cơ quan": "Sinh dục nam",
+    "triệu_chứng": "Đau tinh hoàn",
+    "Từ đồng nghĩa / mô tả bổ sung": "Đau vùng bìu"
+  },
+  {
+    "Nhóm hệ cơ quan": "Sinh dục nam",
+    "triệu_chứng": "Sưng tinh hoàn",
+    "Từ đồng nghĩa / mô tả bổ sung": "Bìu sưng"
+  },
+  {
+    "Nhóm hệ cơ quan": "Sinh dục nam",
+    "triệu_chứng": "Chảy dịch niệu đạo",
+    "Từ đồng nghĩa / mô tả bổ sung": "Dịch lạ ra từ dương vật"
+  },
+  {
+    "Nhóm hệ cơ quan": "Sinh dục nam",
+    "triệu_chứng": "Xuất tinh ra máu",
+    "Từ đồng nghĩa / mô tả bổ sung": "Máu trong tinh dịch"
+  },
+  {
+    "Nhóm hệ cơ quan": "Sinh dục nam",
+    "triệu_chứng": "Rối loạn cương dương",
+    "Từ đồng nghĩa / mô tả bổ sung": "Cương không đủ, cương nhanh xẹp nhanh"
+  },
+  {
+    "Nhóm hệ cơ quan": "Sinh dục nam",
+    "triệu_chứng": "Giảm ham muốn",
+    "Từ đồng nghĩa / mô tả bổ sung": "Mất hứng thú"
+  },
+  {
+    "Nhóm hệ cơ quan": "Sinh dục nữ",
+    "triệu_chứng": "Rong kinh",
+    "Từ đồng nghĩa / mô tả bổ sung": "Kinh nguyệt ra nhiều"
+  },
+  {
+    "Nhóm hệ cơ quan": "Sinh dục nữ",
+    "triệu_chứng": "Vô kinh",
+    "Từ đồng nghĩa / mô tả bổ sung": "Không có kinh"
+  },
+  {
+    "Nhóm hệ cơ quan": "Sinh dục nữ",
+    "triệu_chứng": "Đau bụng kinh",
+    "Từ đồng nghĩa / mô tả bổ sung": "Đau bụng trước và trong kỳ"
+  },
+  {
+    "Nhóm hệ cơ quan": "Sinh dục nữ",
+    "triệu_chứng": "Ra máu giữa kỳ kinh",
+    "Từ đồng nghĩa / mô tả bổ sung": "Chảy máu bất thường"
+  },
+  {
+    "Nhóm hệ cơ quan": "Sinh dục nữ",
+    "triệu_chứng": "Khí hư bất thường",
+    "Từ đồng nghĩa / mô tả bổ sung": "Dịch âm đạo có mùi, màu lạ"
+  },
+  {
+    "Nhóm hệ cơ quan": "Sinh dục nữ",
+    "triệu_chứng": "Ngứa vùng kín",
+    "Từ đồng nghĩa / mô tả bổ sung": "Kích ứng âm đạo"
+  },
+  {
+    "Nhóm hệ cơ quan": "Sinh dục nữ",
+    "triệu_chứng": "Đau khi giao hợp",
+    "Từ đồng nghĩa / mô tả bổ sung": "Đau âm đạo khi quan hệ"
+  },
+  {
+    "Nhóm hệ cơ quan": "Sinh dục nữ",
+    "triệu_chứng": "Tiết dịch vú bất thường",
+    "Từ đồng nghĩa / mô tả bổ sung": "Sữa hoặc dịch chảy ra ngoài kỳ cho con bú"
+  },
+  {
+    "Nhóm hệ cơ quan": "Sinh dục nữ",
+    "triệu_chứng": "Sưng vú",
+    "Từ đồng nghĩa / mô tả bổ sung": "Vú căng, đau khi chạm"
+  },
+  {
+    "Nhóm hệ cơ quan": "Sinh dục nữ",
+    "triệu_chứng": "Đau vú khi chạm",
+    "Từ đồng nghĩa / mô tả bổ sung": "Đau tăng khi ấn hoặc mặc áo chật"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tâm thần & Giấc ngủ",
+    "triệu_chứng": "Lo âu",
+    "Từ đồng nghĩa / mô tả bổ sung": "Căng thẳng, hồi hộp"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tâm thần & Giấc ngủ",
+    "triệu_chứng": "Trầm cảm",
+    "Từ đồng nghĩa / mô tả bổ sung": "Buồn bã, mất hứng thú"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tâm thần & Giấc ngủ",
+    "triệu_chứng": "Căng thẳng",
+    "Từ đồng nghĩa / mô tả bổ sung": "Bồn chồn, khó thư giãn"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tâm thần & Giấc ngủ",
+    "triệu_chứng": "Cáu gắt",
+    "Từ đồng nghĩa / mô tả bổ sung": "Dễ nổi nóng"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tâm thần & Giấc ngủ",
+    "triệu_chứng": "Mất ngủ",
+    "Từ đồng nghĩa / mô tả bổ sung": "Khó ngủ, tỉnh giấc giữa đêm"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tâm thần & Giấc ngủ",
+    "triệu_chứng": "Ngủ chập chờn",
+    "Từ đồng nghĩa / mô tả bổ sung": "Ngủ không sâu, hay giật mình"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tâm thần & Giấc ngủ",
+    "triệu_chứng": "Ngáy",
+    "Từ đồng nghĩa / mô tả bổ sung": "Tiếng ngáy"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tâm thần & Giấc ngủ",
+    "triệu_chứng": "Ngưng thở khi ngủ",
+    "Từ đồng nghĩa / mô tả bổ sung": "Thở ngừng thoáng qua"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tâm thần & Giấc ngủ",
+    "triệu_chứng": "Ác mộng",
+    "Từ đồng nghĩa / mô tả bổ sung": "Giật mình tỉnh giấc"
+  },
+  {
+    "Nhóm hệ cơ quan": "Tâm thần & Giấc ngủ",
+    "triệu_chứng": "Mơ quá nhiều",
+    "Từ đồng nghĩa / mô tả bổ sung": "Đêm thấy nhiều giấc mơ"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé sốt cao",
+    "Từ đồng nghĩa / mô tả bổ sung": "Nhiệt độ > 38 °C, cơ thể nóng ran"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé ớn lạnh, rét run",
+    "Từ đồng nghĩa / mô tả bổ sung": "Em bé run người, quấn chăn liên tục"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé đổ mồ hôi trộm",
+    "Từ đồng nghĩa / mô tả bổ sung": "Em bé toát mồ hôi ban đêm, vùng trán ướt đẫm"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé quấy khóc dai dẳng",
+    "Từ đồng nghĩa / mô tả bổ sung": "Em bé khóc liên tục, không dỗ được"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé lười bú / bỏ bú",
+    "Từ đồng nghĩa / mô tả bổ sung": "Em bé bú ít hơn bình thường, bỏ bú giữa chừng"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé kém ăn / chán ăn",
+    "Từ đồng nghĩa / mô tả bổ sung": "Em bé ngậm thức ăn, bỏ ăn, nôn trớ"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé sụt cân",
+    "Từ đồng nghĩa / mô tả bổ sung": "Em bé cân nặng giảm nhanh so với biểu đồ"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé mệt lừ, lừ đừ",
+    "Từ đồng nghĩa / mô tả bổ sung": "Em bé thờ ơ, ít vận động, ngủ gật"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé mất nước",
+    "Từ đồng nghĩa / mô tả bổ sung": "Em bé miệng khô, mắt trũng, tã khô > 6 giờ"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé ho khan",
+    "Từ đồng nghĩa / mô tả bổ sung": "Em bé ho liên tục, không đờm"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé ho có đờm",
+    "Từ đồng nghĩa / mô tả bổ sung": "Em bé ho có chất nhầy, khạc nhầy"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé ho cò cò",
+    "Từ đồng nghĩa / mô tả bổ sung": "Em bé ho rít từng cơn"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé thở nhanh",
+    "Từ đồng nghĩa / mô tả bổ sung": "> 60 nhịp/phút (sơ sinh), > 50 nhịp/phút (trẻ lớn)"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé rút lõm khoảng liên sườn",
+    "Từ đồng nghĩa / mô tả bổ sung": "Lồng ngực hóp sâu khi hít vào"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé khò khè",
+    "Từ đồng nghĩa / mô tả bổ sung": "Thở inh ỏi, tiếng rít"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé nghẹt mũi",
+    "Từ đồng nghĩa / mô tả bổ sung": "Mũi tịt, thở bằng miệng"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé tím môi, đầu chi",
+    "Từ đồng nghĩa / mô tả bổ sung": "Môi, đầu ngón tay/chân chuyển tím tái"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé nôn trớ",
+    "Từ đồng nghĩa / mô tả bổ sung": "Em bé ói sữa, bọt hoặc dịch vàng"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé tiêu chảy",
+    "Từ đồng nghĩa / mô tả bổ sung": "Phân lỏng > 3 lần/ngày"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé táo bón",
+    "Từ đồng nghĩa / mô tả bổ sung": "Tã lâu 1–2 ngày không đi, rặn đau"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé đầy hơi, chướng bụng",
+    "Từ đồng nghĩa / mô tả bổ sung": "Bụng căng, kêu ục ịch khi sờ vào"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé đi ngoài ra máu",
+    "Từ đồng nghĩa / mô tả bổ sung": "Phân có máu tươi hoặc đen sẫm"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé sôi bụng",
+    "Từ đồng nghĩa / mô tả bổ sung": "Phát ra tiếng ục ịch trong ruột"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé co giật sốt",
+    "Từ đồng nghĩa / mô tả bổ sung": "Giật tay chân, mắt lờ đờ khi sốt cao"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé thóp phồng",
+    "Từ đồng nghĩa / mô tả bổ sung": "Phần thóp nhô cao hơn bình thường"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé lú lẫn, lơ mơ",
+    "Từ đồng nghĩa / mô tả bổ sung": "Ít phản ứng, mắt nhìn vô hồn"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé quấy khóc không điểm dừng",
+    "Từ đồng nghĩa / mô tả bổ sung": "Khóc thét, không nín dù đã bế ẵm"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé phát ban dạng sởi/thủy đậu",
+    "Từ đồng nghĩa / mô tả bổ sung": "Nốt đỏ, mụn nước, ngứa"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé rôm sảy",
+    "Từ đồng nghĩa / mô tả bổ sung": "Mụn nước li ti vùng lưng, ngực"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé chàm da",
+    "Từ đồng nghĩa / mô tả bổ sung": "Vùng da đỏ, tróc vảy, gãi nhiều"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé vàng da sơ sinh",
+    "Từ đồng nghĩa / mô tả bổ sung": "Da và lòng trắng mắt vàng rõ"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé ù tai, chói tai",
+    "Từ đồng nghĩa / mô tả bổ sung": "Dụi tai, tỏ vẻ khó chịu với âm thanh nhỏ"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé giật mình khi ngủ",
+    "Từ đồng nghĩa / mô tả bổ sung": "Giật mình, tỉnh giấc, không ngủ sâu"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé tiếng khóc yếu",
+    "Từ đồng nghĩa / mô tả bổ sung": "Khóc khàn, nhỏ tiếng, lực bú yếu"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé da khô, nứt nẻ",
+    "Từ đồng nghĩa / mô tả bổ sung": "Vùng da quanh miệng, khủy tay khô và tróc"
+  },
+  {
+    "Nhóm hệ cơ quan": "Khoa Nhi (Em bé)",
+    "triệu_chứng": "Em bé số lần tã ướt ít",
+    "Từ đồng nghĩa / mô tả bổ sung": "< 4 lần tã ướt/ngày (trẻ > 1 tháng)"
+  }
+]

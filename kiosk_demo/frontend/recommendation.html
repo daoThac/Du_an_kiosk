@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Triệu chứng đã chọn</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: #fff;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            width: 90%;
+            animation: fadeIn 0.8s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        ul { list-style: none; padding: 0; margin: 0; }
+
+        li {
+            background: #f8f9fa;
+            margin: 10px 0;
+            padding: 12px 16px;
+            border-radius: 10px;
+            font-size: 16px;
+            color: #444;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: 0.3s;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        li:hover { background: #e3f2fd; }
+
+        li .symptom-text {
+            display: flex;
+            align-items: center;
+        }
+
+        li .symptom-text::before {
+            content: "✔";
+            margin-right: 10px;
+            color: #28a745;
+            font-weight: bold;
+        }
+
+        .delete-btn {
+            background: #f44336;
+            border: none;
+            color: #fff;
+            border-radius: 50%;
+            width: 26px;
+            height: 26px;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .delete-btn:hover { background: #b71c1c; }
+
+        .btn-group { display: flex; justify-content: center; gap: 15px; margin-top: 20px; }
+
+        .action-btn {
+            padding: 10px 20px;
+            background: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 15px;
+            transition: 0.3s;
+        }
+
+        .action-btn:hover { background: #0056b3; }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>🩺 Dữ liệu đã chọn</h2>
+        <div id="rec-box"></div>
+
+        <div class="btn-group">
+            <button class="action-btn" id="back-btn">← Quay lại</button>
+            <button class="action-btn" id="next-btn">Tiếp theo →</button>
+        </div>
+    </div>
+
+    <script>
+        function renderSymptoms() {
+            const box = document.getElementById('rec-box');
+            const category = localStorage.getItem('selectedCategory');
+            const categorySlug = localStorage.getItem('selectedCategorySlug');
+            const diseases = JSON.parse(localStorage.getItem('selectedDiseases') || '[]');
+            const symptoms = JSON.parse(localStorage.getItem('selectedSymptoms') || '[]');
+
+            let html = '';
+            if (category) html += `<p><strong>Lĩnh vực:</strong> ${category}</p>`;
+            if (diseases.length) {
+                html += `<p><strong>Bệnh đã chọn:</strong></p><ul>` +
+                    diseases.map(d => `<li><div class="symptom-text">${d}</div></li>`).join('') + `</ul>`;
+            }
+            if (symptoms.length) {
+                html += `<p><strong>Triệu chứng đã chọn:</strong></p><ul>` +
+                    symptoms.map((s, idx) =>
+                        `<li>
+                            <div class="symptom-text">${s}</div>
+                            <button class="delete-btn" onclick="deleteSymptom(${idx})">×</button>
+                        </li>`
+                    ).join('') + `</ul>`;
+            }
+
+            if (!html) html = `<p class="text-muted">Chưa có dữ liệu hiển thị.</p>`;
+            box.innerHTML = html;
+
+            // Gắn lại event nút quay lại và tiếp theo
+            document.getElementById("back-btn").onclick = () => {
+                if (categorySlug) {
+                    window.location.href = "subcategory.html?field=" + encodeURIComponent(categorySlug);
+                } else {
+                    window.location.href = "categories.html";
+                }
+            };
+            document.getElementById("next-btn").onclick = () => {
+                window.location.href = "result.html";
+            };
+        }
+
+        function deleteSymptom(index) {
+            let symptoms = JSON.parse(localStorage.getItem('selectedSymptoms') || '[]');
+            symptoms.splice(index, 1);
+            localStorage.setItem('selectedSymptoms', JSON.stringify(symptoms));
+            renderSymptoms();
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            // Chỉ xóa bệnh, giữ triệu chứng
+            localStorage.removeItem('selectedDiseases');
+            renderSymptoms();
+        });
+    </script>
+</body>
+
+</html>

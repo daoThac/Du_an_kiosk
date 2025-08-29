@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <title>Kết quả dự đoán</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            background: #fff;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            max-width: 500px;
+            width: 90%;
+            animation: fadeIn 0.8s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px);}
+            to { opacity: 1; transform: translateY(0);}
+        }
+        h2 { text-align: center; color: #333; margin-bottom: 20px;}
+        .symptom-list {
+            margin-bottom: 20px;
+        }
+        .symptom-box {
+            display: inline-block;
+            background: #e3f2fd;
+            border-radius: 20px;
+            margin: 5px;
+            padding: 8px 16px;
+        }
+        .btn-group {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 24px;
+        }
+        .action-btn {
+            padding: 10px 20px;
+            background: #1976d2;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            font-size: 15px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .action-btn:hover {
+            background: #0056b3;
+        }
+        .restart-btn {
+            background: #f44336;
+        }
+        .restart-btn:hover {
+            background: #b71c1c;
+        }
+        .back-btn {
+            background: #007bff;
+        }
+        .back-btn:hover {
+            background: #0056b3;
+        }
+        .result-box {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 16px;
+            margin-bottom: 20px;
+            font-size: 17px;
+            color: #444;
+            text-align: center;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>🔎 Kết quả dự đoán</h2>
+        <div class="symptom-list" id="symptom-list"></div>
+        <div class="result-box" id="diagnosis-result">Đang xử lý...</div>
+        <div class="btn-group">
+            <button class="action-btn back-btn" id="back-btn">← Quay lại triệu chứng đã chọn</button>
+            <button class="action-btn restart-btn" id="restart-btn">Bắt đầu lại</button>
+        </div>
+    </div>
+    <script>
+        // Hiển thị triệu chứng đã chọn
+        const selectedSymptoms = JSON.parse(localStorage.getItem("selectedSymptoms") || "[]");
+        const listDiv = document.getElementById("symptom-list");
+        if (selectedSymptoms.length === 0) {
+            listDiv.innerHTML = "<span>Không có triệu chứng nào được chọn.</span>";
+        } else {
+            selectedSymptoms.forEach(symptom => {
+                const box = document.createElement("div");
+                box.className = "symptom-box";
+                box.textContent = symptom;
+                listDiv.appendChild(box);
+            });
+        }
+
+        // Gửi triệu chứng lên backend để lấy kết quả AI
+        async function fetchDiagnosis(symptoms) {
+            try {
+                const res = await fetch("http://localhost:5000/predict", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ symptoms: symptoms })
+                });
+                if (!res.ok) throw new Error("Lỗi server: " + res.status);
+                const data = await res.json();
+                document.getElementById("diagnosis-result").textContent = data.result || "Không có kết quả.";
+            } catch (err) {
+                document.getElementById("diagnosis-result").textContent = "Lỗi khi lấy kết quả từ AI!";
+            }
+        }
+
+        if (selectedSymptoms.length > 0) {
+            fetchDiagnosis(selectedSymptoms);
+        } else {
+            document.getElementById("diagnosis-result").textContent = "Bạn chưa chọn triệu chứng.";
+        }
+
+        // Nút quay lại triệu chứng đã chọn
+        document.getElementById("back-btn").onclick = function () {
+            window.location.href = "recommendation.html";
+        };
+
+        // Nút bắt đầu lại: xóa triệu chứng đã chọn và quay về category
+        document.getElementById("restart-btn").onclick = function () {
+            localStorage.removeItem("selectedSymptoms");
+            window.location.href = "categories.html";
+        };
+    </script>
+</body>
+</html>
